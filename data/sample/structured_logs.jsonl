@@ -502,4 +502,4 @@
 {"event_id": "evt_00000002", "service_name": "payment-api", "service_id": "svc_001", "severity": "ERROR", "message": "Request processed successfully", "endpoint": "/api/v1/payments", "status_code": 201, "latency_ms": 1093.97}
 {"event_id": "evt_00000003", "timestamp": "2026-11-01T20:26:03+00:00", "service_name": "payment-api", "service_id": "svc_unknown", "severity": "DEBUG", "message": "Request timeout", "endpoint": "/api/v1/notifications", "status_code": 401, "latency_ms": 2246.6}
 {"event_id": "evt_00000004", "timestamp": "2026-11-01T00:14:11+00:00", "service_name": "order-api", "service_id": "svc_003", "severity": "DEBUG", "message": "Internal server error", "endpoint": "/api/v1/orders", "status_code": 404, "latency_ms": 778.24, "unexpected_field": "unexpected_value"}
-{"event_id": "broken", "timestamp": 
+{"event_id": "broken", "timestamp":
