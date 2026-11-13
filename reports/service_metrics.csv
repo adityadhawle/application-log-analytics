@@ -1,0 +1,5 @@
+service_name,total_requests,error_count,error_rate_pct,http_5xx_count,http_5xx_rate_pct,avg_latency_ms,p95_latency_ms
+notification-api,264,104,39.39,85,32.2,2454.45,4721.17
+order-api,250,108,43.2,83,33.2,2557.88,4813.9
+payment-api,250,108,43.2,86,34.4,2477.03,4743.45
+user-api,236,98,41.53,88,37.29,2544.43,4734.84

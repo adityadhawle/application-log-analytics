@@ -1,0 +1,15 @@
+{
+    "seed": 42,
+    "requested_valid_records": 1000,
+    "structured_records": 500,
+    "semi_structured_records": 500,
+    "additional_test_records": 5,
+    "known_scenarios": [
+        "duplicate_event",
+        "missing_timestamp",
+        "invalid_service_reference",
+        "unexpected_schema_field",
+        "malformed_json",
+        "out_of_order_arrival"
+    ]
+}

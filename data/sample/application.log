@@ -1,0 +1,500 @@
+2026-11-01T03:57:52+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000792 | endpoint=/api/v1/users | status=404 | latency_ms=3055.84 | message=Database connection established
+2026-11-01T00:28:10+00:00 | DEBUG | service=user-api | service_id=svc_002 | event_id=evt_00000960 | endpoint=/api/v1/orders | status=429 | latency_ms=3894.26 | message=Request timeout
+2026-11-01T12:47:53+00:00 | DEBUG | service=notification-api | service_id=svc_004 | event_id=evt_00000867 | endpoint=/api/v1/orders | status=401 | latency_ms=171.17 | message=Request validation failed
+2026-11-01T11:38:08+00:00 | DEBUG | service=notification-api | service_id=svc_004 | event_id=evt_00000521 | endpoint=/api/v1/notifications | status=404 | latency_ms=1297.87 | message=Request processed successfully
+2026-11-01T10:41:46+00:00 | INFO | service=user-api | service_id=svc_002 | event_id=evt_00000524 | endpoint=/api/v1/users | status=404 | latency_ms=3626.21 | message=Internal server error
+2026-11-01T18:49:06+00:00 | WARNING | service=payment-api | service_id=svc_001 | event_id=evt_00000594 | endpoint=/api/v1/notifications | status=502 | latency_ms=220.21 | message=Request timeout
+2026-11-01T01:10:06+00:00 | CRITICAL | service=user-api | service_id=svc_002 | event_id=evt_00000907 | endpoint=/api/v1/orders | status=400 | latency_ms=556.44 | message=Request processed successfully
+2026-11-01T06:19:32+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000509 | endpoint=/api/v1/payments | status=401 | latency_ms=166.32 | message=Database connection established
+2026-11-01T11:46:35+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000731 | endpoint=/api/v1/users | status=500 | latency_ms=3828.78 | message=Database connection established
+2026-11-01T17:07:54+00:00 | INFO | service=payment-api | service_id=svc_001 | event_id=evt_00000527 | endpoint=/api/v1/payments | status=502 | latency_ms=4447.24 | message=Request timeout
+2026-11-01T08:28:34+00:00 | INFO | service=payment-api | service_id=svc_001 | event_id=evt_00000701 | endpoint=/api/v1/payments | status=502 | latency_ms=1086.72 | message=Database connection established
+2026-11-01T15:18:32+00:00 | WARNING | service=order-api | service_id=svc_003 | event_id=evt_00000526 | endpoint=/api/v1/orders | status=404 | latency_ms=2319.34 | message=Request validation failed
+2026-11-01T13:19:22+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000672 | endpoint=/api/v1/notifications | status=401 | latency_ms=2096.05 | message=Internal server error
+2026-11-01T20:49:36+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000502 | endpoint=/api/v1/payments | status=400 | latency_ms=1377.8 | message=Internal server error
+2026-11-01T20:20:24+00:00 | CRITICAL | service=user-api | service_id=svc_002 | event_id=evt_00000962 | endpoint=/api/v1/payments | status=500 | latency_ms=2303.0 | message=Request timeout
+2026-11-01T12:45:43+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000639 | endpoint=/api/v1/payments | status=500 | latency_ms=670.28 | message=Request timeout
+2026-11-01T03:28:44+00:00 | INFO | service=payment-api | service_id=svc_001 | event_id=evt_00000685 | endpoint=/api/v1/payments | status=200 | latency_ms=3854.9 | message=Internal server error
+2026-11-01T16:39:10+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000571 | endpoint=/api/v1/users | status=502 | latency_ms=22.68 | message=Request timeout
+2026-11-01T11:46:30+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000747 | endpoint=/api/v1/payments | status=500 | latency_ms=2118.28 | message=Request processed successfully
+2026-11-01T03:50:29+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000728 | endpoint=/api/v1/notifications | status=500 | latency_ms=4414.24 | message=Request validation failed
+2026-11-01T00:23:23+00:00 | DEBUG | service=notification-api | service_id=svc_004 | event_id=evt_00000651 | endpoint=/api/v1/orders | status=401 | latency_ms=169.01 | message=Request timeout
+2026-11-01T15:42:04+00:00 | INFO | service=notification-api | service_id=svc_004 | event_id=evt_00000967 | endpoint=/api/v1/payments | status=200 | latency_ms=3965.48 | message=Database connection established
+2026-11-01T21:30:41+00:00 | CRITICAL | service=user-api | service_id=svc_002 | event_id=evt_00000690 | endpoint=/api/v1/notifications | status=503 | latency_ms=3199.29 | message=Internal server error
+2026-11-01T19:20:32+00:00 | WARNING | service=notification-api | service_id=svc_004 | event_id=evt_00000835 | endpoint=/api/v1/notifications | status=401 | latency_ms=1029.1 | message=Internal server error
+2026-11-01T10:54:46+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000836 | endpoint=/api/v1/notifications | status=429 | latency_ms=4951.46 | message=Request validation failed
+2026-11-01T08:12:28+00:00 | WARNING | service=user-api | service_id=svc_002 | event_id=evt_00000923 | endpoint=/api/v1/orders | status=503 | latency_ms=3401.45 | message=Request validation failed
+2026-11-01T17:07:05+00:00 | CRITICAL | service=payment-api | service_id=svc_001 | event_id=evt_00000925 | endpoint=/api/v1/orders | status=502 | latency_ms=3105.14 | message=Request timeout
+2026-11-01T05:19:14+00:00 | WARNING | service=payment-api | service_id=svc_001 | event_id=evt_00000956 | endpoint=/api/v1/users | status=429 | latency_ms=817.38 | message=Internal server error
+2026-11-01T22:21:13+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000650 | endpoint=/api/v1/payments | status=400 | latency_ms=3201.82 | message=Request validation failed
+2026-11-01T02:17:51+00:00 | DEBUG | service=user-api | service_id=svc_002 | event_id=evt_00000889 | endpoint=/api/v1/orders | status=500 | latency_ms=1621.85 | message=Internal server error
+2026-11-01T13:31:44+00:00 | ERROR | service=user-api | service_id=svc_002 | event_id=evt_00000810 | endpoint=/api/v1/users | status=503 | latency_ms=1512.29 | message=Request validation failed
+2026-11-01T10:04:24+00:00 | WARNING | service=notification-api | service_id=svc_004 | event_id=evt_00000613 | endpoint=/api/v1/orders | status=502 | latency_ms=2314.78 | message=Database connection established
+2026-11-01T10:22:43+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000900 | endpoint=/api/v1/orders | status=429 | latency_ms=3084.48 | message=Internal server error
+2026-11-01T23:39:00+00:00 | WARNING | service=notification-api | service_id=svc_004 | event_id=evt_00000771 | endpoint=/api/v1/notifications | status=502 | latency_ms=2369.76 | message=Database connection established
+2026-11-01T16:58:02+00:00 | DEBUG | service=notification-api | service_id=svc_004 | event_id=evt_00000987 | endpoint=/api/v1/notifications | status=502 | latency_ms=2524.47 | message=Request validation failed
+2026-11-01T12:12:14+00:00 | CRITICAL | service=user-api | service_id=svc_002 | event_id=evt_00000785 | endpoint=/api/v1/users | status=400 | latency_ms=895.15 | message=Database connection established
+2026-11-01T06:51:27+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000926 | endpoint=/api/v1/payments | status=500 | latency_ms=4489.83 | message=Request processed successfully
+2026-11-01T17:51:37+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000588 | endpoint=/api/v1/orders | status=201 | latency_ms=3920.37 | message=Request timeout
+2026-11-01T08:23:11+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000628 | endpoint=/api/v1/payments | status=502 | latency_ms=3376.47 | message=Request validation failed
+2026-11-01T00:49:06+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000816 | endpoint=/api/v1/users | status=429 | latency_ms=1003.58 | message=Request validation failed
+2026-11-01T06:21:38+00:00 | INFO | service=payment-api | service_id=svc_001 | event_id=evt_00000550 | endpoint=/api/v1/orders | status=429 | latency_ms=2130.55 | message=Request validation failed
+2026-11-01T10:04:21+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000817 | endpoint=/api/v1/notifications | status=201 | latency_ms=1364.0 | message=Request validation failed
+2026-11-01T06:26:22+00:00 | CRITICAL | service=payment-api | service_id=svc_001 | event_id=evt_00000990 | endpoint=/api/v1/users | status=502 | latency_ms=2153.97 | message=Request validation failed
+2026-11-01T04:06:58+00:00 | DEBUG | service=user-api | service_id=svc_002 | event_id=evt_00000554 | endpoint=/api/v1/users | status=201 | latency_ms=2080.72 | message=Request processed successfully
+2026-11-01T08:18:32+00:00 | WARNING | service=order-api | service_id=svc_003 | event_id=evt_00000682 | endpoint=/api/v1/orders | status=404 | latency_ms=3027.32 | message=Request validation failed
+2026-11-01T07:34:57+00:00 | CRITICAL | service=payment-api | service_id=svc_001 | event_id=evt_00000807 | endpoint=/api/v1/orders | status=201 | latency_ms=4848.1 | message=Request validation failed
+2026-11-01T13:25:10+00:00 | INFO | service=notification-api | service_id=svc_004 | event_id=evt_00000847 | endpoint=/api/v1/notifications | status=201 | latency_ms=711.3 | message=Request timeout
+2026-11-01T13:08:58+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000957 | endpoint=/api/v1/payments | status=404 | latency_ms=1459.03 | message=Request validation failed
+2026-11-01T11:13:00+00:00 | INFO | service=payment-api | service_id=svc_001 | event_id=evt_00000941 | endpoint=/api/v1/users | status=502 | latency_ms=1787.61 | message=Internal server error
+2026-11-01T15:45:57+00:00 | WARNING | service=notification-api | service_id=svc_004 | event_id=evt_00000600 | endpoint=/api/v1/notifications | status=201 | latency_ms=2674.64 | message=Request processed successfully
+2026-11-01T07:49:17+00:00 | WARNING | service=user-api | service_id=svc_002 | event_id=evt_00000734 | endpoint=/api/v1/orders | status=503 | latency_ms=2556.85 | message=Request processed successfully
+2026-11-01T04:57:58+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000906 | endpoint=/api/v1/orders | status=404 | latency_ms=1011.85 | message=Database connection established
+2026-11-01T04:42:41+00:00 | CRITICAL | service=payment-api | service_id=svc_001 | event_id=evt_00000532 | endpoint=/api/v1/notifications | status=500 | latency_ms=2145.7 | message=Internal server error
+2026-11-01T13:30:06+00:00 | INFO | service=user-api | service_id=svc_002 | event_id=evt_00000649 | endpoint=/api/v1/payments | status=500 | latency_ms=4653.49 | message=Request timeout
+2026-11-01T04:53:55+00:00 | INFO | service=notification-api | service_id=svc_004 | event_id=evt_00000795 | endpoint=/api/v1/orders | status=503 | latency_ms=2069.38 | message=Request validation failed
+2026-11-01T02:56:32+00:00 | ERROR | service=user-api | service_id=svc_002 | event_id=evt_00000530 | endpoint=/api/v1/users | status=429 | latency_ms=3172.86 | message=Request validation failed
+2026-11-01T15:16:35+00:00 | WARNING | service=payment-api | service_id=svc_001 | event_id=evt_00000786 | endpoint=/api/v1/notifications | status=404 | latency_ms=3132.64 | message=Request validation failed
+2026-11-01T01:03:55+00:00 | INFO | service=order-api | service_id=svc_003 | event_id=evt_00000970 | endpoint=/api/v1/orders | status=429 | latency_ms=1761.66 | message=Database connection established
+2026-11-01T17:43:47+00:00 | INFO | service=payment-api | service_id=svc_001 | event_id=evt_00000893 | endpoint=/api/v1/payments | status=400 | latency_ms=4630.76 | message=Request processed successfully
+2026-11-01T18:48:01+00:00 | ERROR | service=user-api | service_id=svc_002 | event_id=evt_00000625 | endpoint=/api/v1/orders | status=502 | latency_ms=3963.49 | message=Request validation failed
+2026-11-01T10:15:43+00:00 | DEBUG | service=user-api | service_id=svc_002 | event_id=evt_00000972 | endpoint=/api/v1/payments | status=201 | latency_ms=4621.24 | message=Request timeout
+2026-11-01T04:10:36+00:00 | WARNING | service=payment-api | service_id=svc_001 | event_id=evt_00000592 | endpoint=/api/v1/users | status=401 | latency_ms=4794.53 | message=Internal server error
+2026-11-01T01:35:37+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000721 | endpoint=/api/v1/payments | status=401 | latency_ms=536.17 | message=Database connection established
+2026-11-01T13:54:30+00:00 | WARNING | service=notification-api | service_id=svc_004 | event_id=evt_00000862 | endpoint=/api/v1/payments | status=201 | latency_ms=4588.64 | message=Request timeout
+2026-11-01T22:48:31+00:00 | DEBUG | service=notification-api | service_id=svc_004 | event_id=evt_00000898 | endpoint=/api/v1/payments | status=401 | latency_ms=564.28 | message=Request validation failed
+2026-11-01T13:07:03+00:00 | ERROR | service=notification-api | service_id=svc_004 | event_id=evt_00000841 | endpoint=/api/v1/orders | status=400 | latency_ms=672.25 | message=Database connection established
+2026-11-01T17:38:19+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000507 | endpoint=/api/v1/payments | status=503 | latency_ms=3957.66 | message=Request validation failed
+2026-11-01T23:50:48+00:00 | WARNING | service=order-api | service_id=svc_003 | event_id=evt_00000557 | endpoint=/api/v1/users | status=429 | latency_ms=2595.98 | message=Request processed successfully
+2026-11-01T06:51:28+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000520 | endpoint=/api/v1/users | status=200 | latency_ms=4027.34 | message=Request timeout
+2026-11-01T19:47:17+00:00 | INFO | service=notification-api | service_id=svc_004 | event_id=evt_00000788 | endpoint=/api/v1/notifications | status=401 | latency_ms=1085.15 | message=Request timeout
+2026-11-01T01:52:38+00:00 | INFO | service=order-api | service_id=svc_003 | event_id=evt_00000920 | endpoint=/api/v1/orders | status=502 | latency_ms=3096.05 | message=Internal server error
+2026-11-01T12:31:13+00:00 | WARNING | service=user-api | service_id=svc_002 | event_id=evt_00000693 | endpoint=/api/v1/payments | status=502 | latency_ms=4734.84 | message=Internal server error
+2026-11-01T14:14:52+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000877 | endpoint=/api/v1/notifications | status=502 | latency_ms=2180.85 | message=Request processed successfully
+2026-11-01T02:42:40+00:00 | DEBUG | service=user-api | service_id=svc_002 | event_id=evt_00000585 | endpoint=/api/v1/payments | status=500 | latency_ms=204.13 | message=Database connection established
+2026-11-01T23:04:18+00:00 | CRITICAL | service=payment-api | service_id=svc_001 | event_id=evt_00000849 | endpoint=/api/v1/orders | status=200 | latency_ms=4518.02 | message=Request timeout
+2026-11-01T14:53:08+00:00 | WARNING | service=order-api | service_id=svc_003 | event_id=evt_00000642 | endpoint=/api/v1/users | status=500 | latency_ms=3258.23 | message=Request processed successfully
+2026-11-01T05:38:10+00:00 | INFO | service=notification-api | service_id=svc_004 | event_id=evt_00000587 | endpoint=/api/v1/orders | status=200 | latency_ms=3868.53 | message=Database connection established
+2026-11-01T15:47:21+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000537 | endpoint=/api/v1/notifications | status=429 | latency_ms=3750.83 | message=Request validation failed
+2026-11-01T19:07:44+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000589 | endpoint=/api/v1/payments | status=503 | latency_ms=797.69 | message=Database connection established
+2026-11-01T17:16:22+00:00 | ERROR | service=user-api | service_id=svc_002 | event_id=evt_00000899 | endpoint=/api/v1/users | status=200 | latency_ms=271.08 | message=Database connection established
+2026-11-01T02:22:37+00:00 | INFO | service=user-api | service_id=svc_002 | event_id=evt_00000536 | endpoint=/api/v1/orders | status=502 | latency_ms=3639.43 | message=Request validation failed
+2026-11-01T09:14:23+00:00 | WARNING | service=notification-api | service_id=svc_004 | event_id=evt_00000645 | endpoint=/api/v1/orders | status=500 | latency_ms=3679.18 | message=Request timeout
+2026-11-01T01:29:53+00:00 | WARNING | service=payment-api | service_id=svc_001 | event_id=evt_00000935 | endpoint=/api/v1/users | status=502 | latency_ms=1302.78 | message=Request timeout
+2026-11-01T10:08:25+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000982 | endpoint=/api/v1/orders | status=500 | latency_ms=1781.13 | message=Request timeout
+2026-11-01T07:57:04+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000874 | endpoint=/api/v1/notifications | status=404 | latency_ms=517.33 | message=Request processed successfully
+2026-11-01T02:28:26+00:00 | INFO | service=payment-api | service_id=svc_001 | event_id=evt_00000866 | endpoint=/api/v1/payments | status=503 | latency_ms=520.43 | message=Internal server error
+2026-11-01T02:15:27+00:00 | WARNING | service=order-api | service_id=svc_003 | event_id=evt_00000761 | endpoint=/api/v1/payments | status=503 | latency_ms=4745.63 | message=Internal server error
+2026-11-01T05:33:39+00:00 | WARNING | service=order-api | service_id=svc_003 | event_id=evt_00000986 | endpoint=/api/v1/payments | status=201 | latency_ms=3305.74 | message=Request timeout
+2026-11-01T09:30:23+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000656 | endpoint=/api/v1/payments | status=503 | latency_ms=362.86 | message=Internal server error
+2026-11-01T14:09:57+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000991 | endpoint=/api/v1/notifications | status=503 | latency_ms=3427.19 | message=Request processed successfully
+2026-11-01T23:33:55+00:00 | WARNING | service=order-api | service_id=svc_003 | event_id=evt_00000939 | endpoint=/api/v1/orders | status=400 | latency_ms=3998.08 | message=Internal server error
+2026-11-01T21:22:03+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000512 | endpoint=/api/v1/orders | status=400 | latency_ms=4188.43 | message=Request validation failed
+2026-11-01T10:13:00+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000615 | endpoint=/api/v1/users | status=404 | latency_ms=3667.99 | message=Request timeout
+2026-11-01T17:54:01+00:00 | WARNING | service=payment-api | service_id=svc_001 | event_id=evt_00000560 | endpoint=/api/v1/orders | status=404 | latency_ms=252.7 | message=Database connection established
+2026-11-01T23:53:33+00:00 | CRITICAL | service=user-api | service_id=svc_002 | event_id=evt_00000766 | endpoint=/api/v1/orders | status=201 | latency_ms=2787.14 | message=Database connection established
+2026-11-01T07:24:58+00:00 | ERROR | service=notification-api | service_id=svc_004 | event_id=evt_00000644 | endpoint=/api/v1/notifications | status=400 | latency_ms=1851.69 | message=Request timeout
+2026-11-01T12:49:39+00:00 | WARNING | service=notification-api | service_id=svc_004 | event_id=evt_00000730 | endpoint=/api/v1/orders | status=429 | latency_ms=2062.3 | message=Request timeout
+2026-11-01T00:56:58+00:00 | WARNING | service=user-api | service_id=svc_002 | event_id=evt_00000770 | endpoint=/api/v1/notifications | status=400 | latency_ms=2512.12 | message=Request processed successfully
+2026-11-01T23:04:15+00:00 | DEBUG | service=notification-api | service_id=svc_004 | event_id=evt_00000660 | endpoint=/api/v1/orders | status=500 | latency_ms=4777.27 | message=Database connection established
+2026-11-01T00:40:10+00:00 | ERROR | service=user-api | service_id=svc_002 | event_id=evt_00000754 | endpoint=/api/v1/payments | status=404 | latency_ms=852.43 | message=Request timeout
+2026-11-01T21:11:44+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000736 | endpoint=/api/v1/orders | status=404 | latency_ms=460.43 | message=Database connection established
+2026-11-01T20:25:53+00:00 | CRITICAL | service=user-api | service_id=svc_002 | event_id=evt_00000746 | endpoint=/api/v1/users | status=401 | latency_ms=359.15 | message=Request timeout
+2026-11-01T16:55:40+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000848 | endpoint=/api/v1/payments | status=401 | latency_ms=2362.79 | message=Request processed successfully
+2026-11-01T16:59:31+00:00 | WARNING | service=user-api | service_id=svc_002 | event_id=evt_00000517 | endpoint=/api/v1/notifications | status=201 | latency_ms=37.73 | message=Request timeout
+2026-11-01T06:56:07+00:00 | WARNING | service=order-api | service_id=svc_003 | event_id=evt_00000748 | endpoint=/api/v1/payments | status=404 | latency_ms=847.11 | message=Request validation failed
+2026-11-01T12:08:24+00:00 | WARNING | service=order-api | service_id=svc_003 | event_id=evt_00000879 | endpoint=/api/v1/payments | status=201 | latency_ms=1827.41 | message=Internal server error
+2026-11-01T19:07:32+00:00 | WARNING | service=notification-api | service_id=svc_004 | event_id=evt_00000948 | endpoint=/api/v1/notifications | status=201 | latency_ms=34.09 | message=Request processed successfully
+2026-11-01T12:46:58+00:00 | CRITICAL | service=payment-api | service_id=svc_001 | event_id=evt_00000679 | endpoint=/api/v1/users | status=404 | latency_ms=1776.19 | message=Database connection established
+2026-11-01T10:54:30+00:00 | INFO | service=notification-api | service_id=svc_004 | event_id=evt_00000694 | endpoint=/api/v1/orders | status=401 | latency_ms=3984.04 | message=Internal server error
+2026-11-01T10:26:07+00:00 | WARNING | service=user-api | service_id=svc_002 | event_id=evt_00000580 | endpoint=/api/v1/payments | status=404 | latency_ms=1020.8 | message=Database connection established
+2026-11-01T01:58:33+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000565 | endpoint=/api/v1/orders | status=503 | latency_ms=3837.31 | message=Internal server error
+2026-11-01T15:15:27+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000903 | endpoint=/api/v1/users | status=201 | latency_ms=1631.33 | message=Request validation failed
+2026-11-01T06:42:14+00:00 | WARNING | service=payment-api | service_id=svc_001 | event_id=evt_00000767 | endpoint=/api/v1/payments | status=429 | latency_ms=4400.78 | message=Database connection established
+2026-11-01T06:34:04+00:00 | CRITICAL | service=user-api | service_id=svc_002 | event_id=evt_00000729 | endpoint=/api/v1/orders | status=400 | latency_ms=2669.97 | message=Internal server error
+2026-11-01T02:45:24+00:00 | ERROR | service=notification-api | service_id=svc_004 | event_id=evt_00000870 | endpoint=/api/v1/notifications | status=429 | latency_ms=1287.43 | message=Request validation failed
+2026-11-01T00:48:08+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000930 | endpoint=/api/v1/orders | status=500 | latency_ms=2893.94 | message=Request timeout
+2026-11-01T11:09:32+00:00 | DEBUG | service=user-api | service_id=svc_002 | event_id=evt_00000932 | endpoint=/api/v1/users | status=502 | latency_ms=1860.14 | message=Request validation failed
+2026-11-01T06:53:53+00:00 | DEBUG | service=notification-api | service_id=svc_004 | event_id=evt_00000882 | endpoint=/api/v1/users | status=200 | latency_ms=3598.98 | message=Request processed successfully
+2026-11-01T04:33:09+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000684 | endpoint=/api/v1/payments | status=401 | latency_ms=835.39 | message=Request validation failed
+2026-11-01T20:40:55+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000998 | endpoint=/api/v1/orders | status=200 | latency_ms=3480.1 | message=Internal server error
+2026-11-01T01:58:42+00:00 | ERROR | service=notification-api | service_id=svc_004 | event_id=evt_00000905 | endpoint=/api/v1/users | status=502 | latency_ms=891.13 | message=Database connection established
+2026-11-01T14:55:07+00:00 | WARNING | service=order-api | service_id=svc_003 | event_id=evt_00000546 | endpoint=/api/v1/payments | status=503 | latency_ms=2482.28 | message=Database connection established
+2026-11-01T07:40:23+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000670 | endpoint=/api/v1/payments | status=429 | latency_ms=1808.65 | message=Request timeout
+2026-11-01T17:13:15+00:00 | INFO | service=user-api | service_id=svc_002 | event_id=evt_00000675 | endpoint=/api/v1/notifications | status=502 | latency_ms=673.22 | message=Database connection established
+2026-11-01T05:28:46+00:00 | DEBUG | service=notification-api | service_id=svc_004 | event_id=evt_00000928 | endpoint=/api/v1/payments | status=404 | latency_ms=2083.27 | message=Request timeout
+2026-11-01T16:14:47+00:00 | DEBUG | service=user-api | service_id=svc_002 | event_id=evt_00000620 | endpoint=/api/v1/users | status=502 | latency_ms=4695.94 | message=Database connection established
+2026-11-01T04:03:41+00:00 | CRITICAL | service=payment-api | service_id=svc_001 | event_id=evt_00000855 | endpoint=/api/v1/users | status=502 | latency_ms=1849.46 | message=Database connection established
+2026-11-01T22:36:36+00:00 | DEBUG | service=user-api | service_id=svc_002 | event_id=evt_00000751 | endpoint=/api/v1/payments | status=429 | latency_ms=3469.28 | message=Request validation failed
+2026-11-01T23:24:05+00:00 | WARNING | service=order-api | service_id=svc_003 | event_id=evt_00000516 | endpoint=/api/v1/notifications | status=429 | latency_ms=2295.53 | message=Internal server error
+2026-11-01T07:17:28+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000981 | endpoint=/api/v1/payments | status=401 | latency_ms=4190.71 | message=Internal server error
+2026-11-01T10:05:44+00:00 | INFO | service=payment-api | service_id=svc_001 | event_id=evt_00000871 | endpoint=/api/v1/notifications | status=429 | latency_ms=4979.8 | message=Internal server error
+2026-11-01T23:55:36+00:00 | WARNING | service=notification-api | service_id=svc_004 | event_id=evt_00000566 | endpoint=/api/v1/payments | status=201 | latency_ms=3796.84 | message=Internal server error
+2026-11-01T03:34:31+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000609 | endpoint=/api/v1/notifications | status=429 | latency_ms=1786.33 | message=Request timeout
+2026-11-01T01:58:58+00:00 | INFO | service=order-api | service_id=svc_003 | event_id=evt_00000924 | endpoint=/api/v1/orders | status=502 | latency_ms=2431.65 | message=Request validation failed
+2026-11-01T15:29:57+00:00 | CRITICAL | service=payment-api | service_id=svc_001 | event_id=evt_00000913 | endpoint=/api/v1/notifications | status=201 | latency_ms=2262.75 | message=Internal server error
+2026-11-01T22:05:03+00:00 | INFO | service=order-api | service_id=svc_003 | event_id=evt_00000602 | endpoint=/api/v1/notifications | status=500 | latency_ms=1976.17 | message=Request validation failed
+2026-11-01T05:31:24+00:00 | WARNING | service=user-api | service_id=svc_002 | event_id=evt_00000762 | endpoint=/api/v1/users | status=201 | latency_ms=3649.72 | message=Internal server error
+2026-11-01T20:37:58+00:00 | DEBUG | service=user-api | service_id=svc_002 | event_id=evt_00000715 | endpoint=/api/v1/orders | status=429 | latency_ms=3662.28 | message=Request timeout
+2026-11-01T06:54:44+00:00 | WARNING | service=payment-api | service_id=svc_001 | event_id=evt_00000778 | endpoint=/api/v1/notifications | status=404 | latency_ms=3868.61 | message=Internal server error
+2026-11-01T22:30:34+00:00 | CRITICAL | service=user-api | service_id=svc_002 | event_id=evt_00000503 | endpoint=/api/v1/payments | status=500 | latency_ms=4447.98 | message=Internal server error
+2026-11-01T19:36:10+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000943 | endpoint=/api/v1/notifications | status=401 | latency_ms=2452.84 | message=Request processed successfully
+2026-11-01T21:28:00+00:00 | WARNING | service=user-api | service_id=svc_002 | event_id=evt_00000618 | endpoint=/api/v1/notifications | status=503 | latency_ms=2552.55 | message=Database connection established
+2026-11-01T02:11:09+00:00 | DEBUG | service=user-api | service_id=svc_002 | event_id=evt_00000677 | endpoint=/api/v1/notifications | status=201 | latency_ms=2249.82 | message=Request validation failed
+2026-11-01T13:06:27+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000732 | endpoint=/api/v1/notifications | status=200 | latency_ms=3631.84 | message=Internal server error
+2026-11-01T06:45:18+00:00 | INFO | service=notification-api | service_id=svc_004 | event_id=evt_00000718 | endpoint=/api/v1/orders | status=401 | latency_ms=1604.15 | message=Request timeout
+2026-11-01T20:02:34+00:00 | ERROR | service=user-api | service_id=svc_002 | event_id=evt_00000561 | endpoint=/api/v1/users | status=201 | latency_ms=2296.01 | message=Internal server error
+2026-11-01T19:10:41+00:00 | DEBUG | service=user-api | service_id=svc_002 | event_id=evt_00000688 | endpoint=/api/v1/payments | status=429 | latency_ms=4301.98 | message=Request processed successfully
+2026-11-01T14:06:41+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000814 | endpoint=/api/v1/payments | status=404 | latency_ms=4661.75 | message=Request processed successfully
+2026-11-01T07:25:12+00:00 | CRITICAL | service=user-api | service_id=svc_002 | event_id=evt_00000753 | endpoint=/api/v1/orders | status=503 | latency_ms=2415.65 | message=Request timeout
+2026-11-01T14:41:13+00:00 | INFO | service=user-api | service_id=svc_002 | event_id=evt_00000538 | endpoint=/api/v1/users | status=400 | latency_ms=1056.74 | message=Database connection established
+2026-11-01T15:00:05+00:00 | DEBUG | service=notification-api | service_id=svc_004 | event_id=evt_00000895 | endpoint=/api/v1/payments | status=400 | latency_ms=3586.28 | message=Database connection established
+2026-11-01T22:19:12+00:00 | WARNING | service=user-api | service_id=svc_002 | event_id=evt_00000720 | endpoint=/api/v1/notifications | status=429 | latency_ms=553.21 | message=Request validation failed
+2026-11-01T18:57:22+00:00 | INFO | service=payment-api | service_id=svc_001 | event_id=evt_00000776 | endpoint=/api/v1/notifications | status=200 | latency_ms=4389.02 | message=Internal server error
+2026-11-01T13:20:29+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000921 | endpoint=/api/v1/payments | status=503 | latency_ms=3546.98 | message=Request timeout
+2026-11-01T14:45:50+00:00 | INFO | service=payment-api | service_id=svc_001 | event_id=evt_00000885 | endpoint=/api/v1/notifications | status=503 | latency_ms=745.62 | message=Database connection established
+2026-11-01T17:35:18+00:00 | ERROR | service=user-api | service_id=svc_002 | event_id=evt_00000556 | endpoint=/api/v1/notifications | status=502 | latency_ms=230.82 | message=Request processed successfully
+2026-11-01T06:47:14+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000758 | endpoint=/api/v1/notifications | status=503 | latency_ms=4631.82 | message=Request timeout
+2026-11-01T06:51:56+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000695 | endpoint=/api/v1/notifications | status=500 | latency_ms=1250.23 | message=Request timeout
+2026-11-01T11:57:16+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000611 | endpoint=/api/v1/users | status=429 | latency_ms=4038.69 | message=Request validation failed
+2026-11-01T02:33:49+00:00 | CRITICAL | service=payment-api | service_id=svc_001 | event_id=evt_00000875 | endpoint=/api/v1/notifications | status=200 | latency_ms=4482.67 | message=Request validation failed
+2026-11-01T01:22:45+00:00 | INFO | service=order-api | service_id=svc_003 | event_id=evt_00000598 | endpoint=/api/v1/payments | status=400 | latency_ms=3971.28 | message=Request processed successfully
+2026-11-01T11:51:52+00:00 | CRITICAL | service=payment-api | service_id=svc_001 | event_id=evt_00000828 | endpoint=/api/v1/orders | status=503 | latency_ms=2305.41 | message=Request processed successfully
+2026-11-01T18:22:59+00:00 | CRITICAL | service=user-api | service_id=svc_002 | event_id=evt_00000971 | endpoint=/api/v1/payments | status=200 | latency_ms=2644.66 | message=Request processed successfully
+2026-11-01T06:49:41+00:00 | INFO | service=user-api | service_id=svc_002 | event_id=evt_00000569 | endpoint=/api/v1/users | status=502 | latency_ms=4122.95 | message=Internal server error
+2026-11-01T03:30:48+00:00 | INFO | service=payment-api | service_id=svc_001 | event_id=evt_00000969 | endpoint=/api/v1/users | status=401 | latency_ms=924.72 | message=Request timeout
+2026-11-01T14:34:21+00:00 | ERROR | service=notification-api | service_id=svc_004 | event_id=evt_00000553 | endpoint=/api/v1/notifications | status=502 | latency_ms=3999.7 | message=Request validation failed
+2026-11-01T18:37:45+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000784 | endpoint=/api/v1/notifications | status=503 | latency_ms=1903.65 | message=Database connection established
+2026-11-01T11:31:26+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000999 | endpoint=/api/v1/notifications | status=429 | latency_ms=2863.12 | message=Request timeout
+2026-11-01T17:04:43+00:00 | INFO | service=payment-api | service_id=svc_001 | event_id=evt_00000968 | endpoint=/api/v1/payments | status=201 | latency_ms=1508.93 | message=Request validation failed
+2026-11-01T04:21:14+00:00 | WARNING | service=notification-api | service_id=svc_004 | event_id=evt_00000955 | endpoint=/api/v1/payments | status=404 | latency_ms=815.07 | message=Request timeout
+2026-11-01T16:57:19+00:00 | CRITICAL | service=payment-api | service_id=svc_001 | event_id=evt_00000823 | endpoint=/api/v1/payments | status=502 | latency_ms=487.22 | message=Database connection established
+2026-11-01T03:57:10+00:00 | INFO | service=user-api | service_id=svc_002 | event_id=evt_00000635 | endpoint=/api/v1/notifications | status=400 | latency_ms=3027.95 | message=Database connection established
+2026-11-01T08:38:59+00:00 | INFO | service=order-api | service_id=svc_003 | event_id=evt_00000504 | endpoint=/api/v1/orders | status=429 | latency_ms=102.14 | message=Internal server error
+2026-11-01T17:59:22+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000951 | endpoint=/api/v1/users | status=200 | latency_ms=3956.31 | message=Internal server error
+2026-11-01T08:21:56+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000646 | endpoint=/api/v1/payments | status=401 | latency_ms=2542.21 | message=Database connection established
+2026-11-01T16:31:12+00:00 | ERROR | service=notification-api | service_id=svc_004 | event_id=evt_00000789 | endpoint=/api/v1/payments | status=200 | latency_ms=1224.32 | message=Internal server error
+2026-11-01T15:27:55+00:00 | CRITICAL | service=user-api | service_id=svc_002 | event_id=evt_00000845 | endpoint=/api/v1/notifications | status=401 | latency_ms=3560.94 | message=Request processed successfully
+2026-11-01T12:38:24+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000691 | endpoint=/api/v1/users | status=201 | latency_ms=2209.86 | message=Request timeout
+2026-11-01T19:40:48+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000988 | endpoint=/api/v1/payments | status=500 | latency_ms=4400.75 | message=Request processed successfully
+2026-11-01T01:26:15+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000714 | endpoint=/api/v1/orders | status=503 | latency_ms=3485.49 | message=Internal server error
+2026-11-01T01:34:37+00:00 | INFO | service=notification-api | service_id=svc_004 | event_id=evt_00000901 | endpoint=/api/v1/users | status=400 | latency_ms=3927.67 | message=Request processed successfully
+2026-11-01T09:52:07+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000819 | endpoint=/api/v1/users | status=400 | latency_ms=357.14 | message=Request validation failed
+2026-11-01T02:56:51+00:00 | CRITICAL | service=user-api | service_id=svc_002 | event_id=evt_00000919 | endpoint=/api/v1/payments | status=503 | latency_ms=4726.67 | message=Request validation failed
+2026-11-01T11:53:58+00:00 | CRITICAL | service=user-api | service_id=svc_002 | event_id=evt_00000741 | endpoint=/api/v1/users | status=200 | latency_ms=3368.5 | message=Database connection established
+2026-11-01T03:17:27+00:00 | WARNING | service=order-api | service_id=svc_003 | event_id=evt_00000513 | endpoint=/api/v1/notifications | status=200 | latency_ms=815.37 | message=Request processed successfully
+2026-11-01T18:37:34+00:00 | CRITICAL | service=payment-api | service_id=svc_001 | event_id=evt_00000544 | endpoint=/api/v1/orders | status=201 | latency_ms=3924.02 | message=Request processed successfully
+2026-11-01T16:16:20+00:00 | INFO | service=notification-api | service_id=svc_004 | event_id=evt_00000680 | endpoint=/api/v1/orders | status=502 | latency_ms=3158.93 | message=Internal server error
+2026-11-01T01:40:00+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000568 | endpoint=/api/v1/users | status=500 | latency_ms=535.7 | message=Internal server error
+2026-11-01T20:00:34+00:00 | CRITICAL | service=payment-api | service_id=svc_001 | event_id=evt_00000707 | endpoint=/api/v1/orders | status=502 | latency_ms=3192.96 | message=Request processed successfully
+2026-11-01T13:14:52+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000619 | endpoint=/api/v1/users | status=400 | latency_ms=3786.27 | message=Request processed successfully
+2026-11-01T19:27:55+00:00 | ERROR | service=user-api | service_id=svc_002 | event_id=evt_00000523 | endpoint=/api/v1/orders | status=400 | latency_ms=4203.35 | message=Request validation failed
+2026-11-01T13:58:03+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000989 | endpoint=/api/v1/notifications | status=502 | latency_ms=2298.82 | message=Request validation failed
+2026-11-01T12:40:03+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000739 | endpoint=/api/v1/payments | status=401 | latency_ms=3738.65 | message=Internal server error
+2026-11-01T12:22:40+00:00 | INFO | service=order-api | service_id=svc_003 | event_id=evt_00000657 | endpoint=/api/v1/orders | status=503 | latency_ms=4065.92 | message=Request timeout
+2026-11-01T13:30:53+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000666 | endpoint=/api/v1/notifications | status=404 | latency_ms=2454.54 | message=Request validation failed
+2026-11-01T00:13:23+00:00 | INFO | service=order-api | service_id=svc_003 | event_id=evt_00000803 | endpoint=/api/v1/orders | status=500 | latency_ms=3622.26 | message=Request validation failed
+2026-11-01T04:58:27+00:00 | WARNING | service=user-api | service_id=svc_002 | event_id=evt_00000698 | endpoint=/api/v1/notifications | status=502 | latency_ms=1361.4 | message=Request processed successfully
+2026-11-01T11:40:56+00:00 | WARNING | service=notification-api | service_id=svc_004 | event_id=evt_00000506 | endpoint=/api/v1/payments | status=401 | latency_ms=2209.14 | message=Internal server error
+2026-11-01T10:26:33+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000853 | endpoint=/api/v1/users | status=503 | latency_ms=385.23 | message=Request processed successfully
+2026-11-01T18:44:49+00:00 | INFO | service=notification-api | service_id=svc_004 | event_id=evt_00000902 | endpoint=/api/v1/users | status=502 | latency_ms=2963.94 | message=Request processed successfully
+2026-11-01T19:34:44+00:00 | ERROR | service=user-api | service_id=svc_002 | event_id=evt_00000597 | endpoint=/api/v1/users | status=200 | latency_ms=2296.67 | message=Request processed successfully
+2026-11-01T21:19:16+00:00 | INFO | service=payment-api | service_id=svc_001 | event_id=evt_00000601 | endpoint=/api/v1/orders | status=503 | latency_ms=531.57 | message=Request processed successfully
+2026-11-01T16:47:49+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000779 | endpoint=/api/v1/orders | status=200 | latency_ms=3450.07 | message=Internal server error
+2026-11-01T11:39:44+00:00 | CRITICAL | service=user-api | service_id=svc_002 | event_id=evt_00000595 | endpoint=/api/v1/payments | status=400 | latency_ms=4858.17 | message=Request processed successfully
+2026-11-01T05:51:36+00:00 | DEBUG | service=user-api | service_id=svc_002 | event_id=evt_00000607 | endpoint=/api/v1/orders | status=401 | latency_ms=574.0 | message=Database connection established
+2026-11-01T03:25:58+00:00 | INFO | service=user-api | service_id=svc_002 | event_id=evt_00000735 | endpoint=/api/v1/orders | status=400 | latency_ms=692.9 | message=Internal server error
+2026-11-01T03:27:31+00:00 | INFO | service=payment-api | service_id=svc_001 | event_id=evt_00000551 | endpoint=/api/v1/users | status=400 | latency_ms=1643.98 | message=Request processed successfully
+2026-11-01T21:03:52+00:00 | DEBUG | service=user-api | service_id=svc_002 | event_id=evt_00000573 | endpoint=/api/v1/payments | status=500 | latency_ms=3287.95 | message=Database connection established
+2026-11-01T08:59:56+00:00 | INFO | service=notification-api | service_id=svc_004 | event_id=evt_00000705 | endpoint=/api/v1/notifications | status=201 | latency_ms=2606.17 | message=Database connection established
+2026-11-01T21:25:20+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000584 | endpoint=/api/v1/users | status=401 | latency_ms=1471.59 | message=Request timeout
+2026-11-01T22:23:54+00:00 | DEBUG | service=user-api | service_id=svc_002 | event_id=evt_00000652 | endpoint=/api/v1/orders | status=401 | latency_ms=3275.44 | message=Request processed successfully
+2026-11-01T15:05:31+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000949 | endpoint=/api/v1/notifications | status=400 | latency_ms=997.09 | message=Request timeout
+2026-11-01T07:13:57+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000545 | endpoint=/api/v1/orders | status=503 | latency_ms=4865.63 | message=Database connection established
+2026-11-01T00:04:47+00:00 | WARNING | service=user-api | service_id=svc_002 | event_id=evt_00000567 | endpoint=/api/v1/orders | status=503 | latency_ms=2610.4 | message=Request validation failed
+2026-11-01T05:23:20+00:00 | DEBUG | service=notification-api | service_id=svc_004 | event_id=evt_00000743 | endpoint=/api/v1/payments | status=502 | latency_ms=2857.63 | message=Request validation failed
+2026-11-01T17:55:53+00:00 | DEBUG | service=notification-api | service_id=svc_004 | event_id=evt_00000799 | endpoint=/api/v1/users | status=404 | latency_ms=4896.31 | message=Request timeout
+2026-11-01T03:49:45+00:00 | ERROR | service=notification-api | service_id=svc_004 | event_id=evt_00000979 | endpoint=/api/v1/payments | status=201 | latency_ms=717.69 | message=Internal server error
+2026-11-01T20:17:04+00:00 | INFO | service=order-api | service_id=svc_003 | event_id=evt_00000976 | endpoint=/api/v1/orders | status=502 | latency_ms=579.5 | message=Request processed successfully
+2026-11-01T13:41:17+00:00 | CRITICAL | service=user-api | service_id=svc_002 | event_id=evt_00000869 | endpoint=/api/v1/payments | status=400 | latency_ms=1267.43 | message=Database connection established
+2026-11-01T04:54:37+00:00 | ERROR | service=user-api | service_id=svc_002 | event_id=evt_00000745 | endpoint=/api/v1/users | status=502 | latency_ms=1977.2 | message=Request timeout
+2026-11-01T11:05:36+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000606 | endpoint=/api/v1/users | status=500 | latency_ms=4528.23 | message=Request validation failed
+2026-11-01T17:43:02+00:00 | WARNING | service=order-api | service_id=svc_003 | event_id=evt_00000676 | endpoint=/api/v1/payments | status=500 | latency_ms=495.78 | message=Request validation failed
+2026-11-01T15:04:49+00:00 | DEBUG | service=notification-api | service_id=svc_004 | event_id=evt_00000947 | endpoint=/api/v1/payments | status=400 | latency_ms=1039.71 | message=Request timeout
+2026-11-01T12:19:52+00:00 | INFO | service=notification-api | service_id=svc_004 | event_id=evt_00000940 | endpoint=/api/v1/payments | status=400 | latency_ms=3390.36 | message=Internal server error
+2026-11-01T09:33:49+00:00 | WARNING | service=user-api | service_id=svc_002 | event_id=evt_00000952 | endpoint=/api/v1/payments | status=404 | latency_ms=2086.37 | message=Internal server error
+2026-11-01T15:43:15+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000863 | endpoint=/api/v1/orders | status=404 | latency_ms=1336.17 | message=Request validation failed
+2026-11-01T14:29:10+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000667 | endpoint=/api/v1/users | status=200 | latency_ms=2629.15 | message=Request timeout
+2026-11-01T13:08:45+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000944 | endpoint=/api/v1/notifications | status=429 | latency_ms=1931.18 | message=Database connection established
+2026-11-01T05:03:40+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000964 | endpoint=/api/v1/orders | status=400 | latency_ms=3549.76 | message=Request timeout
+2026-11-01T09:52:33+00:00 | ERROR | service=notification-api | service_id=svc_004 | event_id=evt_00000683 | endpoint=/api/v1/notifications | status=500 | latency_ms=837.42 | message=Request validation failed
+2026-11-01T18:55:51+00:00 | WARNING | service=user-api | service_id=svc_002 | event_id=evt_00000865 | endpoint=/api/v1/orders | status=503 | latency_ms=53.88 | message=Database connection established
+2026-11-01T21:59:54+00:00 | CRITICAL | service=payment-api | service_id=svc_001 | event_id=evt_00000564 | endpoint=/api/v1/users | status=502 | latency_ms=4751.83 | message=Request validation failed
+2026-11-01T01:45:22+00:00 | INFO | service=payment-api | service_id=svc_001 | event_id=evt_00000541 | endpoint=/api/v1/notifications | status=500 | latency_ms=618.85 | message=Internal server error
+2026-11-01T11:55:04+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000813 | endpoint=/api/v1/users | status=401 | latency_ms=3623.13 | message=Request processed successfully
+2026-11-01T01:58:40+00:00 | WARNING | service=order-api | service_id=svc_003 | event_id=evt_00000859 | endpoint=/api/v1/payments | status=400 | latency_ms=2320.61 | message=Request processed successfully
+2026-11-01T17:38:28+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000983 | endpoint=/api/v1/users | status=502 | latency_ms=541.08 | message=Request validation failed
+2026-11-01T13:03:33+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000581 | endpoint=/api/v1/users | status=503 | latency_ms=1945.04 | message=Request processed successfully
+2026-11-01T00:55:12+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000579 | endpoint=/api/v1/payments | status=200 | latency_ms=1000.31 | message=Database connection established
+2026-11-01T08:41:10+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000829 | endpoint=/api/v1/users | status=502 | latency_ms=1919.7 | message=Database connection established
+2026-11-01T15:11:40+00:00 | DEBUG | service=user-api | service_id=svc_002 | event_id=evt_00000763 | endpoint=/api/v1/users | status=500 | latency_ms=4852.72 | message=Request timeout
+2026-11-01T07:52:49+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000910 | endpoint=/api/v1/notifications | status=404 | latency_ms=73.5 | message=Internal server error
+2026-11-01T10:24:58+00:00 | CRITICAL | service=payment-api | service_id=svc_001 | event_id=evt_00000501 | endpoint=/api/v1/notifications | status=404 | latency_ms=1915.83 | message=Request validation failed
+2026-11-01T04:19:04+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000965 | endpoint=/api/v1/users | status=401 | latency_ms=1537.83 | message=Database connection established
+2026-11-01T13:57:02+00:00 | DEBUG | service=notification-api | service_id=svc_004 | event_id=evt_00000858 | endpoint=/api/v1/users | status=401 | latency_ms=2889.21 | message=Internal server error
+2026-11-01T02:02:25+00:00 | WARNING | service=user-api | service_id=svc_002 | event_id=evt_00000703 | endpoint=/api/v1/payments | status=503 | latency_ms=2351.26 | message=Internal server error
+2026-11-01T11:07:18+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000614 | endpoint=/api/v1/payments | status=400 | latency_ms=3228.11 | message=Request timeout
+2026-11-01T02:46:05+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000662 | endpoint=/api/v1/notifications | status=429 | latency_ms=1768.34 | message=Database connection established
+2026-11-01T13:20:33+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000973 | endpoint=/api/v1/notifications | status=201 | latency_ms=905.06 | message=Database connection established
+2026-11-01T07:16:13+00:00 | WARNING | service=user-api | service_id=svc_002 | event_id=evt_00000750 | endpoint=/api/v1/payments | status=201 | latency_ms=3698.17 | message=Database connection established
+2026-11-01T04:21:52+00:00 | INFO | service=payment-api | service_id=svc_001 | event_id=evt_00000665 | endpoint=/api/v1/payments | status=503 | latency_ms=4790.01 | message=Internal server error
+2026-11-01T08:03:32+00:00 | DEBUG | service=user-api | service_id=svc_002 | event_id=evt_00000514 | endpoint=/api/v1/orders | status=500 | latency_ms=2566.89 | message=Database connection established
+2026-11-01T13:46:32+00:00 | DEBUG | service=notification-api | service_id=svc_004 | event_id=evt_00000696 | endpoint=/api/v1/payments | status=500 | latency_ms=3126.99 | message=Request validation failed
+2026-11-01T11:19:39+00:00 | CRITICAL | service=payment-api | service_id=svc_001 | event_id=evt_00000508 | endpoint=/api/v1/users | status=503 | latency_ms=4396.78 | message=Internal server error
+2026-11-01T18:42:33+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000958 | endpoint=/api/v1/payments | status=400 | latency_ms=2719.02 | message=Database connection established
+2026-11-01T01:20:04+00:00 | CRITICAL | service=user-api | service_id=svc_002 | event_id=evt_00000617 | endpoint=/api/v1/notifications | status=400 | latency_ms=1829.73 | message=Request validation failed
+2026-11-01T17:24:54+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000668 | endpoint=/api/v1/orders | status=500 | latency_ms=4302.14 | message=Request processed successfully
+2026-11-01T21:47:50+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000716 | endpoint=/api/v1/payments | status=503 | latency_ms=775.97 | message=Database connection established
+2026-11-01T06:06:04+00:00 | WARNING | service=user-api | service_id=svc_002 | event_id=evt_00000681 | endpoint=/api/v1/notifications | status=201 | latency_ms=396.48 | message=Internal server error
+2026-11-01T19:20:03+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000534 | endpoint=/api/v1/payments | status=401 | latency_ms=1132.1 | message=Request processed successfully
+2026-11-01T00:40:08+00:00 | WARNING | service=user-api | service_id=svc_002 | event_id=evt_00000760 | endpoint=/api/v1/orders | status=404 | latency_ms=1181.79 | message=Request validation failed
+2026-11-01T06:06:23+00:00 | WARNING | service=order-api | service_id=svc_003 | event_id=evt_00000634 | endpoint=/api/v1/payments | status=401 | latency_ms=1891.68 | message=Internal server error
+2026-11-01T02:29:02+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000985 | endpoint=/api/v1/users | status=500 | latency_ms=3023.32 | message=Request processed successfully
+2026-11-01T22:38:21+00:00 | WARNING | service=notification-api | service_id=svc_004 | event_id=evt_00000552 | endpoint=/api/v1/orders | status=429 | latency_ms=915.16 | message=Request processed successfully
+2026-11-01T16:50:16+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000806 | endpoint=/api/v1/orders | status=429 | latency_ms=2776.33 | message=Request processed successfully
+2026-11-01T06:48:50+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000671 | endpoint=/api/v1/users | status=404 | latency_ms=2357.26 | message=Request validation failed
+2026-11-01T06:44:01+00:00 | WARNING | service=notification-api | service_id=svc_004 | event_id=evt_00000917 | endpoint=/api/v1/payments | status=201 | latency_ms=1925.01 | message=Internal server error
+2026-11-01T16:13:27+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000742 | endpoint=/api/v1/payments | status=401 | latency_ms=2160.25 | message=Request timeout
+2026-11-01T18:12:23+00:00 | DEBUG | service=notification-api | service_id=svc_004 | event_id=evt_00000812 | endpoint=/api/v1/orders | status=502 | latency_ms=3662.47 | message=Database connection established
+2026-11-01T17:16:20+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000542 | endpoint=/api/v1/payments | status=404 | latency_ms=2104.94 | message=Database connection established
+2026-11-01T09:57:46+00:00 | INFO | service=user-api | service_id=svc_002 | event_id=evt_00000818 | endpoint=/api/v1/payments | status=401 | latency_ms=2713.1 | message=Request processed successfully
+2026-11-01T17:15:15+00:00 | WARNING | service=user-api | service_id=svc_002 | event_id=evt_00000929 | endpoint=/api/v1/notifications | status=200 | latency_ms=1458.29 | message=Internal server error
+2026-11-01T17:04:15+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000850 | endpoint=/api/v1/notifications | status=429 | latency_ms=2105.66 | message=Request timeout
+2026-11-01T19:39:21+00:00 | DEBUG | service=notification-api | service_id=svc_004 | event_id=evt_00000937 | endpoint=/api/v1/orders | status=201 | latency_ms=4602.25 | message=Request timeout
+2026-11-01T13:26:14+00:00 | INFO | service=notification-api | service_id=svc_004 | event_id=evt_00000725 | endpoint=/api/v1/orders | status=503 | latency_ms=204.23 | message=Request timeout
+2026-11-01T11:42:31+00:00 | DEBUG | service=user-api | service_id=svc_002 | event_id=evt_00000890 | endpoint=/api/v1/users | status=429 | latency_ms=317.05 | message=Request processed successfully
+2026-11-01T10:57:42+00:00 | WARNING | service=order-api | service_id=svc_003 | event_id=evt_00000959 | endpoint=/api/v1/payments | status=503 | latency_ms=2900.65 | message=Request validation failed
+2026-11-01T16:36:33+00:00 | CRITICAL | service=payment-api | service_id=svc_001 | event_id=evt_00000888 | endpoint=/api/v1/payments | status=201 | latency_ms=571.78 | message=Database connection established
+2026-11-01T22:50:07+00:00 | WARNING | service=payment-api | service_id=svc_001 | event_id=evt_00000896 | endpoint=/api/v1/notifications | status=200 | latency_ms=2788.99 | message=Request validation failed
+2026-11-01T02:32:03+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000833 | endpoint=/api/v1/notifications | status=429 | latency_ms=2471.98 | message=Request processed successfully
+2026-11-01T23:28:33+00:00 | DEBUG | service=notification-api | service_id=svc_004 | event_id=evt_00000953 | endpoint=/api/v1/payments | status=404 | latency_ms=2465.76 | message=Request processed successfully
+2026-11-01T19:19:48+00:00 | INFO | service=order-api | service_id=svc_003 | event_id=evt_00000918 | endpoint=/api/v1/notifications | status=404 | latency_ms=3490.58 | message=Request validation failed
+2026-11-01T11:20:38+00:00 | ERROR | service=notification-api | service_id=svc_004 | event_id=evt_00000702 | endpoint=/api/v1/notifications | status=200 | latency_ms=1651.91 | message=Request validation failed
+2026-11-01T11:19:16+00:00 | WARNING | service=order-api | service_id=svc_003 | event_id=evt_00000505 | endpoint=/api/v1/payments | status=401 | latency_ms=672.79 | message=Internal server error
+2026-11-01T06:50:13+00:00 | WARNING | service=notification-api | service_id=svc_004 | event_id=evt_00000699 | endpoint=/api/v1/users | status=200 | latency_ms=4848.61 | message=Request processed successfully
+2026-11-01T06:53:52+00:00 | DEBUG | service=notification-api | service_id=svc_004 | event_id=evt_00000727 | endpoint=/api/v1/users | status=400 | latency_ms=2792.56 | message=Request timeout
+2026-11-01T09:38:10+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000872 | endpoint=/api/v1/payments | status=502 | latency_ms=4897.13 | message=Internal server error
+2026-11-01T13:37:29+00:00 | INFO | service=payment-api | service_id=svc_001 | event_id=evt_00000811 | endpoint=/api/v1/payments | status=502 | latency_ms=2530.47 | message=Database connection established
+2026-11-01T10:58:20+00:00 | ERROR | service=notification-api | service_id=svc_004 | event_id=evt_00000860 | endpoint=/api/v1/users | status=500 | latency_ms=3417.87 | message=Request timeout
+2026-11-01T15:04:29+00:00 | INFO | service=notification-api | service_id=svc_004 | event_id=evt_00000801 | endpoint=/api/v1/orders | status=503 | latency_ms=4030.41 | message=Request validation failed
+2026-11-01T19:39:55+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000878 | endpoint=/api/v1/notifications | status=502 | latency_ms=606.9 | message=Request processed successfully
+2026-11-01T10:21:53+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000697 | endpoint=/api/v1/notifications | status=401 | latency_ms=4267.56 | message=Request validation failed
+2026-11-01T03:19:12+00:00 | INFO | service=payment-api | service_id=svc_001 | event_id=evt_00000783 | endpoint=/api/v1/orders | status=201 | latency_ms=2619.56 | message=Internal server error
+2026-11-01T20:52:48+00:00 | CRITICAL | service=user-api | service_id=svc_002 | event_id=evt_00000630 | endpoint=/api/v1/users | status=503 | latency_ms=196.92 | message=Database connection established
+2026-11-01T00:35:51+00:00 | INFO | service=notification-api | service_id=svc_004 | event_id=evt_00000884 | endpoint=/api/v1/payments | status=429 | latency_ms=3939.1 | message=Request validation failed
+2026-11-01T13:53:46+00:00 | CRITICAL | service=payment-api | service_id=svc_001 | event_id=evt_00000528 | endpoint=/api/v1/notifications | status=200 | latency_ms=4354.37 | message=Request validation failed
+2026-11-01T20:26:31+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000518 | endpoint=/api/v1/orders | status=404 | latency_ms=3422.38 | message=Request timeout
+2026-11-01T03:04:22+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000857 | endpoint=/api/v1/users | status=502 | latency_ms=3764.05 | message=Request timeout
+2026-11-01T16:07:14+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000658 | endpoint=/api/v1/notifications | status=401 | latency_ms=3787.61 | message=Request timeout
+2026-11-01T17:20:10+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000689 | endpoint=/api/v1/orders | status=503 | latency_ms=2224.78 | message=Request timeout
+2026-11-01T23:30:26+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000805 | endpoint=/api/v1/users | status=502 | latency_ms=4460.4 | message=Internal server error
+2026-11-01T03:47:02+00:00 | WARNING | service=payment-api | service_id=svc_001 | event_id=evt_00000686 | endpoint=/api/v1/users | status=201 | latency_ms=3274.51 | message=Request timeout
+2026-11-01T10:42:37+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000575 | endpoint=/api/v1/users | status=500 | latency_ms=3013.02 | message=Database connection established
+2026-11-01T09:17:48+00:00 | CRITICAL | service=payment-api | service_id=svc_001 | event_id=evt_00000864 | endpoint=/api/v1/notifications | status=401 | latency_ms=3671.83 | message=Internal server error
+2026-11-01T07:42:03+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000627 | endpoint=/api/v1/users | status=429 | latency_ms=3010.5 | message=Database connection established
+2026-11-01T12:23:25+00:00 | DEBUG | service=notification-api | service_id=svc_004 | event_id=evt_00000961 | endpoint=/api/v1/users | status=400 | latency_ms=2517.41 | message=Request processed successfully
+2026-11-01T23:27:45+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000824 | endpoint=/api/v1/users | status=401 | latency_ms=719.46 | message=Internal server error
+2026-11-01T16:52:42+00:00 | ERROR | service=user-api | service_id=svc_002 | event_id=evt_00000780 | endpoint=/api/v1/payments | status=400 | latency_ms=3893.88 | message=Request processed successfully
+2026-11-01T06:39:17+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000663 | endpoint=/api/v1/users | status=401 | latency_ms=3677.41 | message=Internal server error
+2026-11-01T03:38:34+00:00 | DEBUG | service=notification-api | service_id=svc_004 | event_id=evt_00001000 | endpoint=/api/v1/notifications | status=503 | latency_ms=4057.47 | message=Request validation failed
+2026-11-01T15:00:28+00:00 | WARNING | service=order-api | service_id=svc_003 | event_id=evt_00000692 | endpoint=/api/v1/orders | status=200 | latency_ms=1.46 | message=Database connection established
+2026-11-01T22:27:59+00:00 | ERROR | service=notification-api | service_id=svc_004 | event_id=evt_00000774 | endpoint=/api/v1/notifications | status=401 | latency_ms=2138.35 | message=Request validation failed
+2026-11-01T11:06:32+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000752 | endpoint=/api/v1/payments | status=429 | latency_ms=1045.84 | message=Internal server error
+2026-11-01T09:30:42+00:00 | DEBUG | service=user-api | service_id=svc_002 | event_id=evt_00000856 | endpoint=/api/v1/users | status=503 | latency_ms=4310.21 | message=Internal server error
+2026-11-01T00:24:40+00:00 | DEBUG | service=user-api | service_id=svc_002 | event_id=evt_00000802 | endpoint=/api/v1/orders | status=201 | latency_ms=1539.55 | message=Request validation failed
+2026-11-01T02:02:08+00:00 | DEBUG | service=user-api | service_id=svc_002 | event_id=evt_00000631 | endpoint=/api/v1/users | status=503 | latency_ms=4791.23 | message=Request validation failed
+2026-11-01T01:31:44+00:00 | CRITICAL | service=payment-api | service_id=svc_001 | event_id=evt_00000710 | endpoint=/api/v1/users | status=429 | latency_ms=3854.21 | message=Internal server error
+2026-11-01T11:03:53+00:00 | INFO | service=payment-api | service_id=svc_001 | event_id=evt_00000726 | endpoint=/api/v1/payments | status=201 | latency_ms=3626.13 | message=Database connection established
+2026-11-01T21:02:37+00:00 | CRITICAL | service=payment-api | service_id=svc_001 | event_id=evt_00000641 | endpoint=/api/v1/payments | status=500 | latency_ms=3273.08 | message=Request processed successfully
+2026-11-01T02:48:05+00:00 | INFO | service=order-api | service_id=svc_003 | event_id=evt_00000927 | endpoint=/api/v1/orders | status=201 | latency_ms=3485.71 | message=Database connection established
+2026-11-01T03:20:51+00:00 | WARNING | service=notification-api | service_id=svc_004 | event_id=evt_00000590 | endpoint=/api/v1/users | status=429 | latency_ms=1656.0 | message=Database connection established
+2026-11-01T20:42:52+00:00 | ERROR | service=notification-api | service_id=svc_004 | event_id=evt_00000555 | endpoint=/api/v1/notifications | status=429 | latency_ms=3057.18 | message=Database connection established
+2026-11-01T18:21:14+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000574 | endpoint=/api/v1/users | status=404 | latency_ms=1989.95 | message=Internal server error
+2026-11-01T06:08:23+00:00 | INFO | service=notification-api | service_id=svc_004 | event_id=evt_00000612 | endpoint=/api/v1/users | status=401 | latency_ms=3561.28 | message=Request validation failed
+2026-11-01T03:01:30+00:00 | CRITICAL | service=user-api | service_id=svc_002 | event_id=evt_00000914 | endpoint=/api/v1/notifications | status=401 | latency_ms=664.43 | message=Request processed successfully
+2026-11-01T03:04:57+00:00 | DEBUG | service=user-api | service_id=svc_002 | event_id=evt_00000843 | endpoint=/api/v1/notifications | status=500 | latency_ms=3116.62 | message=Internal server error
+2026-11-01T06:46:11+00:00 | INFO | service=payment-api | service_id=svc_001 | event_id=evt_00000700 | endpoint=/api/v1/orders | status=400 | latency_ms=3576.26 | message=Request validation failed
+2026-11-01T04:18:13+00:00 | INFO | service=payment-api | service_id=svc_001 | event_id=evt_00000800 | endpoint=/api/v1/payments | status=401 | latency_ms=3998.02 | message=Internal server error
+2026-11-01T16:38:45+00:00 | INFO | service=user-api | service_id=svc_002 | event_id=evt_00000669 | endpoint=/api/v1/notifications | status=429 | latency_ms=3446.36 | message=Request timeout
+2026-11-01T09:10:36+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000854 | endpoint=/api/v1/orders | status=404 | latency_ms=4289.43 | message=Request timeout
+2026-11-01T03:44:13+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000563 | endpoint=/api/v1/payments | status=503 | latency_ms=2745.94 | message=Internal server error
+2026-11-01T08:50:08+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000887 | endpoint=/api/v1/users | status=200 | latency_ms=4523.41 | message=Request processed successfully
+2026-11-01T07:31:42+00:00 | CRITICAL | service=payment-api | service_id=svc_001 | event_id=evt_00000622 | endpoint=/api/v1/notifications | status=502 | latency_ms=4589.59 | message=Request validation failed
+2026-11-01T14:57:29+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000846 | endpoint=/api/v1/orders | status=200 | latency_ms=4891.19 | message=Request timeout
+2026-11-01T17:19:38+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000992 | endpoint=/api/v1/payments | status=500 | latency_ms=1317.69 | message=Database connection established
+2026-11-01T02:00:13+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000942 | endpoint=/api/v1/users | status=404 | latency_ms=979.38 | message=Database connection established
+2026-11-01T04:47:21+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000769 | endpoint=/api/v1/orders | status=401 | latency_ms=2982.21 | message=Request processed successfully
+2026-11-01T04:43:21+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000798 | endpoint=/api/v1/notifications | status=503 | latency_ms=3646.19 | message=Request timeout
+2026-11-01T04:14:38+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000963 | endpoint=/api/v1/notifications | status=429 | latency_ms=1558.56 | message=Request processed successfully
+2026-11-01T03:12:16+00:00 | ERROR | service=notification-api | service_id=svc_004 | event_id=evt_00000562 | endpoint=/api/v1/orders | status=201 | latency_ms=4903.37 | message=Internal server error
+2026-11-01T08:24:59+00:00 | ERROR | service=notification-api | service_id=svc_004 | event_id=evt_00000757 | endpoint=/api/v1/payments | status=429 | latency_ms=2423.83 | message=Request timeout
+2026-11-01T16:34:42+00:00 | CRITICAL | service=user-api | service_id=svc_002 | event_id=evt_00000793 | endpoint=/api/v1/payments | status=201 | latency_ms=3842.79 | message=Request validation failed
+2026-11-01T15:45:34+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000558 | endpoint=/api/v1/orders | status=500 | latency_ms=744.12 | message=Internal server error
+2026-11-01T02:37:21+00:00 | INFO | service=user-api | service_id=svc_002 | event_id=evt_00000886 | endpoint=/api/v1/notifications | status=200 | latency_ms=2356.63 | message=Database connection established
+2026-11-01T20:08:32+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000572 | endpoint=/api/v1/notifications | status=503 | latency_ms=3905.63 | message=Request timeout
+2026-11-01T09:06:18+00:00 | ERROR | service=user-api | service_id=svc_002 | event_id=evt_00000704 | endpoint=/api/v1/payments | status=401 | latency_ms=1924.6 | message=Request processed successfully
+2026-11-01T17:30:01+00:00 | WARNING | service=user-api | service_id=svc_002 | event_id=evt_00000547 | endpoint=/api/v1/payments | status=200 | latency_ms=3358.49 | message=Database connection established
+2026-11-01T22:15:49+00:00 | CRITICAL | service=payment-api | service_id=svc_001 | event_id=evt_00000837 | endpoint=/api/v1/users | status=404 | latency_ms=312.99 | message=Internal server error
+2026-11-01T18:10:59+00:00 | DEBUG | service=notification-api | service_id=svc_004 | event_id=evt_00000938 | endpoint=/api/v1/orders | status=400 | latency_ms=22.47 | message=Internal server error
+2026-11-01T23:13:43+00:00 | CRITICAL | service=user-api | service_id=svc_002 | event_id=evt_00000909 | endpoint=/api/v1/users | status=201 | latency_ms=2059.07 | message=Database connection established
+2026-11-01T00:32:54+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000709 | endpoint=/api/v1/payments | status=500 | latency_ms=3945.93 | message=Request validation failed
+2026-11-01T04:16:41+00:00 | CRITICAL | service=user-api | service_id=svc_002 | event_id=evt_00000897 | endpoint=/api/v1/orders | status=503 | latency_ms=2538.2 | message=Request processed successfully
+2026-11-01T21:30:05+00:00 | INFO | service=notification-api | service_id=svc_004 | event_id=evt_00000980 | endpoint=/api/v1/payments | status=429 | latency_ms=4876.06 | message=Database connection established
+2026-11-01T11:13:27+00:00 | WARNING | service=payment-api | service_id=svc_001 | event_id=evt_00000809 | endpoint=/api/v1/orders | status=500 | latency_ms=434.9 | message=Request processed successfully
+2026-11-01T07:51:11+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000946 | endpoint=/api/v1/notifications | status=404 | latency_ms=819.79 | message=Internal server error
+2026-11-01T18:56:37+00:00 | WARNING | service=payment-api | service_id=svc_001 | event_id=evt_00000543 | endpoint=/api/v1/users | status=500 | latency_ms=4153.43 | message=Request timeout
+2026-11-01T05:00:04+00:00 | DEBUG | service=user-api | service_id=svc_002 | event_id=evt_00000529 | endpoint=/api/v1/notifications | status=502 | latency_ms=716.98 | message=Request validation failed
+2026-11-01T01:06:45+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000511 | endpoint=/api/v1/notifications | status=502 | latency_ms=888.74 | message=Request validation failed
+2026-11-01T23:46:12+00:00 | INFO | service=user-api | service_id=svc_002 | event_id=evt_00000876 | endpoint=/api/v1/notifications | status=404 | latency_ms=758.89 | message=Request processed successfully
+2026-11-01T14:43:51+00:00 | ERROR | service=notification-api | service_id=svc_004 | event_id=evt_00000522 | endpoint=/api/v1/users | status=429 | latency_ms=3633.02 | message=Request processed successfully
+2026-11-01T07:34:54+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000830 | endpoint=/api/v1/notifications | status=429 | latency_ms=2723.09 | message=Internal server error
+2026-11-01T07:57:12+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000591 | endpoint=/api/v1/notifications | status=503 | latency_ms=4118.62 | message=Request timeout
+2026-11-01T16:33:16+00:00 | INFO | service=user-api | service_id=svc_002 | event_id=evt_00000782 | endpoint=/api/v1/orders | status=400 | latency_ms=3592.16 | message=Request validation failed
+2026-11-01T00:01:50+00:00 | CRITICAL | service=payment-api | service_id=svc_001 | event_id=evt_00000838 | endpoint=/api/v1/payments | status=404 | latency_ms=4328.53 | message=Request validation failed
+2026-11-01T09:30:49+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000643 | endpoint=/api/v1/orders | status=404 | latency_ms=4959.0 | message=Internal server error
+2026-11-01T07:59:12+00:00 | ERROR | service=user-api | service_id=svc_002 | event_id=evt_00000633 | endpoint=/api/v1/users | status=400 | latency_ms=3116.44 | message=Request timeout
+2026-11-01T02:55:45+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000880 | endpoint=/api/v1/users | status=400 | latency_ms=2772.82 | message=Request validation failed
+2026-11-01T12:18:13+00:00 | INFO | service=user-api | service_id=svc_002 | event_id=evt_00000570 | endpoint=/api/v1/payments | status=201 | latency_ms=3860.95 | message=Internal server error
+2026-11-01T04:44:27+00:00 | INFO | service=user-api | service_id=svc_002 | event_id=evt_00000966 | endpoint=/api/v1/payments | status=201 | latency_ms=95.01 | message=Internal server error
+2026-11-01T01:42:37+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000582 | endpoint=/api/v1/notifications | status=429 | latency_ms=4829.2 | message=Internal server error
+2026-11-01T22:27:43+00:00 | WARNING | service=notification-api | service_id=svc_004 | event_id=evt_00000993 | endpoint=/api/v1/orders | status=200 | latency_ms=141.71 | message=Request validation failed
+2026-11-01T02:19:27+00:00 | WARNING | service=notification-api | service_id=svc_004 | event_id=evt_00000519 | endpoint=/api/v1/orders | status=404 | latency_ms=1306.47 | message=Request validation failed
+2026-11-01T11:50:47+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000832 | endpoint=/api/v1/notifications | status=400 | latency_ms=1540.87 | message=Request processed successfully
+2026-11-01T09:35:17+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000717 | endpoint=/api/v1/notifications | status=200 | latency_ms=3879.81 | message=Request validation failed
+2026-11-01T04:40:03+00:00 | WARNING | service=payment-api | service_id=svc_001 | event_id=evt_00000994 | endpoint=/api/v1/payments | status=429 | latency_ms=1903.49 | message=Request validation failed
+2026-11-01T04:47:25+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000787 | endpoint=/api/v1/orders | status=200 | latency_ms=2293.75 | message=Request processed successfully
+2026-11-01T22:26:09+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000749 | endpoint=/api/v1/users | status=502 | latency_ms=225.34 | message=Request timeout
+2026-11-01T21:40:18+00:00 | WARNING | service=payment-api | service_id=svc_001 | event_id=evt_00000738 | endpoint=/api/v1/notifications | status=201 | latency_ms=3900.83 | message=Request processed successfully
+2026-11-01T16:46:27+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000659 | endpoint=/api/v1/notifications | status=201 | latency_ms=1289.84 | message=Request processed successfully
+2026-11-01T18:16:16+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000626 | endpoint=/api/v1/users | status=401 | latency_ms=386.36 | message=Internal server error
+2026-11-01T17:15:40+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000515 | endpoint=/api/v1/payments | status=401 | latency_ms=1262.7 | message=Database connection established
+2026-11-01T20:56:01+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000599 | endpoint=/api/v1/notifications | status=500 | latency_ms=2256.18 | message=Request validation failed
+2026-11-01T12:34:18+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000577 | endpoint=/api/v1/orders | status=201 | latency_ms=3804.11 | message=Database connection established
+2026-11-01T00:25:26+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000559 | endpoint=/api/v1/notifications | status=502 | latency_ms=4347.21 | message=Request timeout
+2026-11-01T01:27:10+00:00 | WARNING | service=payment-api | service_id=svc_001 | event_id=evt_00000623 | endpoint=/api/v1/orders | status=404 | latency_ms=2893.58 | message=Request processed successfully
+2026-11-01T13:07:21+00:00 | INFO | service=user-api | service_id=svc_002 | event_id=evt_00000708 | endpoint=/api/v1/payments | status=401 | latency_ms=3164.91 | message=Database connection established
+2026-11-01T07:58:01+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000621 | endpoint=/api/v1/payments | status=404 | latency_ms=1847.81 | message=Database connection established
+2026-11-01T01:08:05+00:00 | WARNING | service=order-api | service_id=svc_003 | event_id=evt_00000808 | endpoint=/api/v1/users | status=500 | latency_ms=937.71 | message=Internal server error
+2026-11-01T21:02:58+00:00 | DEBUG | service=notification-api | service_id=svc_004 | event_id=evt_00000852 | endpoint=/api/v1/payments | status=404 | latency_ms=4044.67 | message=Request timeout
+2026-11-01T10:19:12+00:00 | INFO | service=payment-api | service_id=svc_001 | event_id=evt_00000632 | endpoint=/api/v1/notifications | status=502 | latency_ms=4336.64 | message=Database connection established
+2026-11-01T00:28:19+00:00 | WARNING | service=payment-api | service_id=svc_001 | event_id=evt_00000583 | endpoint=/api/v1/notifications | status=401 | latency_ms=4557.52 | message=Database connection established
+2026-11-01T06:18:06+00:00 | INFO | service=user-api | service_id=svc_002 | event_id=evt_00000831 | endpoint=/api/v1/notifications | status=201 | latency_ms=2961.22 | message=Request timeout
+2026-11-01T20:02:45+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000647 | endpoint=/api/v1/users | status=500 | latency_ms=4822.89 | message=Request processed successfully
+2026-11-01T03:23:34+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000637 | endpoint=/api/v1/payments | status=500 | latency_ms=2610.7 | message=Database connection established
+2026-11-01T19:31:40+00:00 | INFO | service=user-api | service_id=svc_002 | event_id=evt_00000712 | endpoint=/api/v1/notifications | status=401 | latency_ms=1584.38 | message=Database connection established
+2026-11-01T04:29:12+00:00 | INFO | service=user-api | service_id=svc_002 | event_id=evt_00000605 | endpoint=/api/v1/notifications | status=503 | latency_ms=2738.08 | message=Request processed successfully
+2026-11-01T13:13:58+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000825 | endpoint=/api/v1/orders | status=429 | latency_ms=2266.96 | message=Database connection established
+2026-11-01T13:57:22+00:00 | INFO | service=notification-api | service_id=svc_004 | event_id=evt_00000533 | endpoint=/api/v1/users | status=429 | latency_ms=4750.39 | message=Request processed successfully
+2026-11-01T07:31:42+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000664 | endpoint=/api/v1/users | status=429 | latency_ms=780.82 | message=Database connection established
+2026-11-01T05:44:29+00:00 | ERROR | service=user-api | service_id=svc_002 | event_id=evt_00000711 | endpoint=/api/v1/orders | status=200 | latency_ms=299.82 | message=Request processed successfully
+2026-11-01T20:46:00+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000916 | endpoint=/api/v1/notifications | status=502 | latency_ms=3859.4 | message=Request processed successfully
+2026-11-01T10:32:20+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000950 | endpoint=/api/v1/payments | status=404 | latency_ms=4173.09 | message=Internal server error
+2026-11-01T21:11:22+00:00 | INFO | service=user-api | service_id=svc_002 | event_id=evt_00000892 | endpoint=/api/v1/payments | status=500 | latency_ms=3888.53 | message=Database connection established
+2026-11-01T10:31:47+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000851 | endpoint=/api/v1/orders | status=404 | latency_ms=308.03 | message=Request processed successfully
+2026-11-01T17:48:44+00:00 | ERROR | service=user-api | service_id=svc_002 | event_id=evt_00000883 | endpoint=/api/v1/orders | status=502 | latency_ms=2670.17 | message=Request processed successfully
+2026-11-01T21:13:09+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000578 | endpoint=/api/v1/orders | status=500 | latency_ms=4041.72 | message=Internal server error
+2026-11-01T13:42:49+00:00 | ERROR | service=user-api | service_id=svc_002 | event_id=evt_00000624 | endpoint=/api/v1/payments | status=503 | latency_ms=1258.68 | message=Request validation failed
+2026-11-01T19:56:42+00:00 | WARNING | service=order-api | service_id=svc_003 | event_id=evt_00000576 | endpoint=/api/v1/users | status=401 | latency_ms=1049.35 | message=Request timeout
+2026-11-01T20:43:08+00:00 | DEBUG | service=notification-api | service_id=svc_004 | event_id=evt_00000737 | endpoint=/api/v1/orders | status=502 | latency_ms=865.34 | message=Request processed successfully
+2026-11-01T12:33:58+00:00 | WARNING | service=notification-api | service_id=svc_004 | event_id=evt_00000995 | endpoint=/api/v1/orders | status=200 | latency_ms=3306.54 | message=Internal server error
+2026-11-01T10:21:49+00:00 | WARNING | service=payment-api | service_id=svc_001 | event_id=evt_00000945 | endpoint=/api/v1/orders | status=502 | latency_ms=4371.63 | message=Request validation failed
+2026-11-01T14:58:23+00:00 | WARNING | service=notification-api | service_id=svc_004 | event_id=evt_00000768 | endpoint=/api/v1/orders | status=400 | latency_ms=3895.76 | message=Internal server error
+2026-11-01T16:27:31+00:00 | WARNING | service=payment-api | service_id=svc_001 | event_id=evt_00000531 | endpoint=/api/v1/users | status=400 | latency_ms=2448.4 | message=Database connection established
+2026-11-01T03:51:24+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000821 | endpoint=/api/v1/payments | status=500 | latency_ms=1960.19 | message=Request processed successfully
+2026-11-01T22:13:13+00:00 | ERROR | service=user-api | service_id=svc_002 | event_id=evt_00000873 | endpoint=/api/v1/notifications | status=201 | latency_ms=720.22 | message=Database connection established
+2026-11-01T22:33:53+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000790 | endpoint=/api/v1/payments | status=400 | latency_ms=742.13 | message=Database connection established
+2026-11-01T01:47:13+00:00 | WARNING | service=order-api | service_id=svc_003 | event_id=evt_00000723 | endpoint=/api/v1/payments | status=200 | latency_ms=4651.12 | message=Database connection established
+2026-11-01T15:09:15+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000894 | endpoint=/api/v1/users | status=400 | latency_ms=3199.49 | message=Database connection established
+2026-11-01T12:17:29+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000997 | endpoint=/api/v1/orders | status=200 | latency_ms=2305.09 | message=Request processed successfully
+2026-11-01T08:42:14+00:00 | INFO | service=order-api | service_id=svc_003 | event_id=evt_00000915 | endpoint=/api/v1/notifications | status=404 | latency_ms=809.85 | message=Request processed successfully
+2026-11-01T08:06:10+00:00 | DEBUG | service=notification-api | service_id=svc_004 | event_id=evt_00000773 | endpoint=/api/v1/payments | status=400 | latency_ms=4635.59 | message=Database connection established
+2026-11-01T10:16:36+00:00 | WARNING | service=user-api | service_id=svc_002 | event_id=evt_00000827 | endpoint=/api/v1/users | status=503 | latency_ms=515.56 | message=Request timeout
+2026-11-01T01:34:53+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000638 | endpoint=/api/v1/users | status=502 | latency_ms=3947.99 | message=Internal server error
+2026-11-01T23:04:44+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000740 | endpoint=/api/v1/orders | status=503 | latency_ms=206.87 | message=Request processed successfully
+2026-11-01T13:49:16+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000974 | endpoint=/api/v1/users | status=500 | latency_ms=565.11 | message=Database connection established
+2026-11-01T21:48:17+00:00 | WARNING | service=payment-api | service_id=svc_001 | event_id=evt_00000954 | endpoint=/api/v1/notifications | status=500 | latency_ms=4341.86 | message=Request timeout
+2026-11-01T15:43:05+00:00 | CRITICAL | service=user-api | service_id=svc_002 | event_id=evt_00000839 | endpoint=/api/v1/orders | status=500 | latency_ms=2030.76 | message=Internal server error
+2026-11-01T17:48:58+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000984 | endpoint=/api/v1/users | status=200 | latency_ms=498.92 | message=Database connection established
+2026-11-01T02:25:29+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000756 | endpoint=/api/v1/orders | status=201 | latency_ms=96.37 | message=Request validation failed
+2026-11-01T07:36:40+00:00 | CRITICAL | service=user-api | service_id=svc_002 | event_id=evt_00000796 | endpoint=/api/v1/payments | status=503 | latency_ms=4935.96 | message=Request processed successfully
+2026-11-01T22:49:33+00:00 | INFO | service=payment-api | service_id=svc_001 | event_id=evt_00000596 | endpoint=/api/v1/users | status=500 | latency_ms=4178.49 | message=Database connection established
+2026-11-01T05:01:42+00:00 | WARNING | service=user-api | service_id=svc_002 | event_id=evt_00000765 | endpoint=/api/v1/users | status=500 | latency_ms=4978.43 | message=Request timeout
+2026-11-01T17:16:45+00:00 | WARNING | service=notification-api | service_id=svc_004 | event_id=evt_00000861 | endpoint=/api/v1/notifications | status=200 | latency_ms=1444.67 | message=Database connection established
+2026-11-01T22:26:21+00:00 | WARNING | service=notification-api | service_id=svc_004 | event_id=evt_00000822 | endpoint=/api/v1/orders | status=401 | latency_ms=3564.78 | message=Request validation failed
+2026-11-01T13:07:15+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000510 | endpoint=/api/v1/orders | status=502 | latency_ms=2526.13 | message=Request validation failed
+2026-11-01T13:53:07+00:00 | INFO | service=order-api | service_id=svc_003 | event_id=evt_00000593 | endpoint=/api/v1/orders | status=503 | latency_ms=3620.15 | message=Internal server error
+2026-11-01T14:18:40+00:00 | ERROR | service=user-api | service_id=svc_002 | event_id=evt_00000781 | endpoint=/api/v1/notifications | status=200 | latency_ms=895.21 | message=Request validation failed
+2026-11-01T05:08:32+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000891 | endpoint=/api/v1/orders | status=503 | latency_ms=825.87 | message=Database connection established
+2026-11-01T18:32:50+00:00 | ERROR | service=notification-api | service_id=svc_004 | event_id=evt_00000844 | endpoint=/api/v1/notifications | status=500 | latency_ms=1777.18 | message=Request timeout
+2026-11-01T21:41:27+00:00 | INFO | service=order-api | service_id=svc_003 | event_id=evt_00000733 | endpoint=/api/v1/users | status=404 | latency_ms=33.84 | message=Request timeout
+2026-11-01T16:21:13+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000764 | endpoint=/api/v1/users | status=400 | latency_ms=2905.57 | message=Database connection established
+2026-11-01T04:30:02+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000975 | endpoint=/api/v1/users | status=502 | latency_ms=3811.61 | message=Request processed successfully
+2026-11-01T07:40:17+00:00 | CRITICAL | service=notification-api | service_id=svc_004 | event_id=evt_00000629 | endpoint=/api/v1/notifications | status=200 | latency_ms=1219.11 | message=Database connection established
+2026-11-01T15:34:53+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000978 | endpoint=/api/v1/notifications | status=429 | latency_ms=897.31 | message=Request processed successfully
+2026-11-01T15:58:23+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000713 | endpoint=/api/v1/notifications | status=429 | latency_ms=3622.27 | message=Request processed successfully
+2026-11-01T17:15:26+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000603 | endpoint=/api/v1/users | status=400 | latency_ms=3734.02 | message=Request timeout
+2026-11-01T09:35:17+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000661 | endpoint=/api/v1/payments | status=500 | latency_ms=3368.82 | message=Request validation failed
+2026-11-01T18:53:07+00:00 | CRITICAL | service=user-api | service_id=svc_002 | event_id=evt_00000777 | endpoint=/api/v1/payments | status=503 | latency_ms=1937.6 | message=Internal server error
+2026-11-01T19:50:49+00:00 | DEBUG | service=notification-api | service_id=svc_004 | event_id=evt_00000840 | endpoint=/api/v1/notifications | status=400 | latency_ms=941.95 | message=Database connection established
+2026-11-01T03:35:43+00:00 | INFO | service=user-api | service_id=svc_002 | event_id=evt_00000722 | endpoint=/api/v1/notifications | status=502 | latency_ms=2629.58 | message=Request timeout
+2026-11-01T08:32:32+00:00 | WARNING | service=user-api | service_id=svc_002 | event_id=evt_00000996 | endpoint=/api/v1/payments | status=201 | latency_ms=4344.83 | message=Request timeout
+2026-11-01T16:38:12+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000977 | endpoint=/api/v1/notifications | status=401 | latency_ms=2770.03 | message=Request validation failed
+2026-11-01T01:26:50+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000759 | endpoint=/api/v1/orders | status=429 | latency_ms=2450.17 | message=Request timeout
+2026-11-01T12:39:04+00:00 | WARNING | service=order-api | service_id=svc_003 | event_id=evt_00000655 | endpoint=/api/v1/users | status=502 | latency_ms=4648.64 | message=Database connection established
+2026-11-01T05:02:21+00:00 | WARNING | service=user-api | service_id=svc_002 | event_id=evt_00000922 | endpoint=/api/v1/payments | status=502 | latency_ms=3687.16 | message=Database connection established
+2026-11-01T03:17:46+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000834 | endpoint=/api/v1/payments | status=400 | latency_ms=3304.75 | message=Database connection established
+2026-11-01T13:39:37+00:00 | WARNING | service=payment-api | service_id=svc_001 | event_id=evt_00000540 | endpoint=/api/v1/payments | status=200 | latency_ms=3310.19 | message=Request timeout
+2026-11-01T16:41:46+00:00 | ERROR | service=notification-api | service_id=svc_004 | event_id=evt_00000908 | endpoint=/api/v1/orders | status=401 | latency_ms=4432.16 | message=Database connection established
+2026-11-01T09:27:28+00:00 | WARNING | service=order-api | service_id=svc_003 | event_id=evt_00000678 | endpoint=/api/v1/orders | status=429 | latency_ms=100.16 | message=Request validation failed
+2026-11-01T19:58:59+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000608 | endpoint=/api/v1/payments | status=404 | latency_ms=3358.75 | message=Request timeout
+2026-11-01T23:58:03+00:00 | CRITICAL | service=payment-api | service_id=svc_001 | event_id=evt_00000719 | endpoint=/api/v1/users | status=503 | latency_ms=3416.44 | message=Internal server error
+2026-11-01T19:57:27+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000744 | endpoint=/api/v1/payments | status=500 | latency_ms=2509.61 | message=Request validation failed
+2026-11-01T07:02:10+00:00 | DEBUG | service=user-api | service_id=svc_002 | event_id=evt_00000772 | endpoint=/api/v1/notifications | status=200 | latency_ms=4627.25 | message=Request processed successfully
+2026-11-01T08:58:49+00:00 | DEBUG | service=notification-api | service_id=svc_004 | event_id=evt_00000911 | endpoint=/api/v1/notifications | status=401 | latency_ms=4459.22 | message=Request validation failed
+2026-11-01T01:20:13+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000791 | endpoint=/api/v1/orders | status=429 | latency_ms=4602.0 | message=Request processed successfully
+2026-11-01T11:21:46+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000535 | endpoint=/api/v1/notifications | status=503 | latency_ms=2943.76 | message=Request processed successfully
+2026-11-01T08:27:55+00:00 | INFO | service=notification-api | service_id=svc_004 | event_id=evt_00000640 | endpoint=/api/v1/notifications | status=404 | latency_ms=945.92 | message=Request validation failed
+2026-11-01T13:17:31+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000673 | endpoint=/api/v1/notifications | status=400 | latency_ms=2857.48 | message=Request validation failed
+2026-11-01T06:23:40+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000804 | endpoint=/api/v1/orders | status=502 | latency_ms=4580.9 | message=Request validation failed
+2026-11-01T09:19:00+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000549 | endpoint=/api/v1/orders | status=404 | latency_ms=2321.92 | message=Internal server error
+2026-11-01T22:01:09+00:00 | WARNING | service=notification-api | service_id=svc_004 | event_id=evt_00000797 | endpoint=/api/v1/orders | status=404 | latency_ms=2627.43 | message=Internal server error
+2026-11-01T01:43:22+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000933 | endpoint=/api/v1/orders | status=502 | latency_ms=4781.11 | message=Request validation failed
+2026-11-01T02:04:15+00:00 | CRITICAL | service=payment-api | service_id=svc_001 | event_id=evt_00000868 | endpoint=/api/v1/payments | status=201 | latency_ms=432.85 | message=Database connection established
+2026-11-01T20:54:15+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000548 | endpoint=/api/v1/payments | status=503 | latency_ms=376.17 | message=Database connection established
+2026-11-01T06:57:15+00:00 | WARNING | service=notification-api | service_id=svc_004 | event_id=evt_00000881 | endpoint=/api/v1/payments | status=429 | latency_ms=2433.03 | message=Internal server error
+2026-11-01T19:40:54+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000820 | endpoint=/api/v1/users | status=200 | latency_ms=2354.21 | message=Request processed successfully
+2026-11-01T02:44:42+00:00 | INFO | service=payment-api | service_id=svc_001 | event_id=evt_00000616 | endpoint=/api/v1/payments | status=500 | latency_ms=3846.23 | message=Request timeout
+2026-11-01T20:53:16+00:00 | INFO | service=user-api | service_id=svc_002 | event_id=evt_00000912 | endpoint=/api/v1/payments | status=200 | latency_ms=4956.38 | message=Internal server error
+2026-11-01T17:12:54+00:00 | ERROR | service=user-api | service_id=svc_002 | event_id=evt_00000706 | endpoint=/api/v1/orders | status=400 | latency_ms=3146.19 | message=Request validation failed
+2026-11-01T13:25:09+00:00 | ERROR | service=order-api | service_id=svc_003 | event_id=evt_00000794 | endpoint=/api/v1/notifications | status=503 | latency_ms=325.56 | message=Request processed successfully
+2026-11-01T03:09:42+00:00 | WARNING | service=user-api | service_id=svc_002 | event_id=evt_00000653 | endpoint=/api/v1/orders | status=500 | latency_ms=2027.85 | message=Internal server error
+2026-11-01T12:13:12+00:00 | INFO | service=user-api | service_id=svc_002 | event_id=evt_00000525 | endpoint=/api/v1/orders | status=401 | latency_ms=3721.31 | message=Database connection established
+2026-11-01T17:19:33+00:00 | CRITICAL | service=user-api | service_id=svc_002 | event_id=evt_00000636 | endpoint=/api/v1/payments | status=503 | latency_ms=2517.14 | message=Request timeout
+2026-11-01T03:18:59+00:00 | DEBUG | service=payment-api | service_id=svc_001 | event_id=evt_00000648 | endpoint=/api/v1/notifications | status=201 | latency_ms=321.34 | message=Internal server error
+2026-11-01T03:38:33+00:00 | WARNING | service=user-api | service_id=svc_002 | event_id=evt_00000610 | endpoint=/api/v1/payments | status=401 | latency_ms=1589.61 | message=Request timeout
+2026-11-01T22:08:02+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000775 | endpoint=/api/v1/notifications | status=503 | latency_ms=2626.63 | message=Request validation failed
+2026-11-01T07:28:10+00:00 | CRITICAL | service=user-api | service_id=svc_002 | event_id=evt_00000936 | endpoint=/api/v1/orders | status=429 | latency_ms=740.57 | message=Request processed successfully
+2026-11-01T17:42:00+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000931 | endpoint=/api/v1/notifications | status=502 | latency_ms=1521.11 | message=Request timeout
+2026-11-01T21:28:12+00:00 | CRITICAL | service=payment-api | service_id=svc_001 | event_id=evt_00000539 | endpoint=/api/v1/payments | status=429 | latency_ms=3555.84 | message=Database connection established
+2026-11-01T08:37:59+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000904 | endpoint=/api/v1/notifications | status=401 | latency_ms=368.58 | message=Database connection established
+2026-11-01T19:29:25+00:00 | WARNING | service=user-api | service_id=svc_002 | event_id=evt_00000934 | endpoint=/api/v1/users | status=400 | latency_ms=807.11 | message=Database connection established
+2026-11-01T02:22:47+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000826 | endpoint=/api/v1/orders | status=502 | latency_ms=2306.75 | message=Request processed successfully
+2026-11-01T07:18:25+00:00 | CRITICAL | service=order-api | service_id=svc_003 | event_id=evt_00000755 | endpoint=/api/v1/payments | status=502 | latency_ms=3274.13 | message=Request validation failed
+2026-11-01T23:05:05+00:00 | DEBUG | service=order-api | service_id=svc_003 | event_id=evt_00000604 | endpoint=/api/v1/orders | status=200 | latency_ms=2768.07 | message=Request validation failed
+2026-11-01T23:52:30+00:00 | ERROR | service=user-api | service_id=svc_002 | event_id=evt_00000724 | endpoint=/api/v1/notifications | status=200 | latency_ms=1805.27 | message=Request processed successfully
+2026-11-01T11:15:49+00:00 | DEBUG | service=notification-api | service_id=svc_004 | event_id=evt_00000687 | endpoint=/api/v1/orders | status=502 | latency_ms=3132.78 | message=Database connection established
+2026-11-01T18:51:01+00:00 | INFO | service=user-api | service_id=svc_002 | event_id=evt_00000654 | endpoint=/api/v1/payments | status=503 | latency_ms=1423.18 | message=Request processed successfully
+2026-11-01T12:08:04+00:00 | ERROR | service=payment-api | service_id=svc_001 | event_id=evt_00000815 | endpoint=/api/v1/payments | status=503 | latency_ms=3831.13 | message=Request processed successfully
+2026-11-01T20:15:54+00:00 | WARNING | service=order-api | service_id=svc_003 | event_id=evt_00000586 | endpoint=/api/v1/users | status=404 | latency_ms=29.22 | message=Database connection established
+2026-11-01T03:38:10+00:00 | WARNING | service=user-api | service_id=svc_002 | event_id=evt_00000674 | endpoint=/api/v1/notifications | status=500 | latency_ms=981.12 | message=Database connection established
+2026-11-01T23:36:25+00:00 | INFO | service=payment-api | service_id=svc_001 | event_id=evt_00000842 | endpoint=/api/v1/notifications | status=500 | latency_ms=4874.9 | message=Database connection established
